@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "payment-calendar",
-    "slug": "payment-calendar",
+    "name": "MyTSProject",
+    "slug": "MyTSProject",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,14 +11,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "plugins": [
-      [
-        "expo-calendar",
-        {
-          "calendarPermission": "The app needs to access your calendar."
-        }
-      ]
-    ],
     "assetBundlePatterns": [
       "**/*"
     ],
