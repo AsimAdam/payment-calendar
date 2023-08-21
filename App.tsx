@@ -13,7 +13,7 @@ const Stack = createNativeStackNavigator();
 
 const HomeStackScreen = () => (
   <Stack.Navigator>
-    <Stack.Screen name="Home" component={Home} />
+    <Stack.Screen name="main" component={Home} />
     <Stack.Screen name="AddPayment" component={AddPayment} />
   </Stack.Navigator>
 );
@@ -23,7 +23,7 @@ export default function App() {
     <NavigationContainer>
       <Tab.Navigator>
         <Tab.Screen
-          name="Home"
+          name="home"
           component={HomeStackScreen} 
           options={{
             tabBarIcon: ({ color, size }) => (

@@ -39,8 +39,6 @@ const AddPayment = ({ route }) => {
           }
         }
       };
-      
-  
         useEffect(() => {
             
             const fetchSavedPaymentData = async () => {
@@ -68,7 +66,7 @@ const AddPayment = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Add {paymentTitle} Details</Text>
+      <Text style={styles.title}>Enter {paymentTitle} Details</Text>
 
       <View style={styles.formGroup}>
         <Text>Amount:</Text>
